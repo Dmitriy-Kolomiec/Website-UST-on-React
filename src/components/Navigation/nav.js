@@ -1,14 +1,15 @@
 import React from "react";
 import n from './nav.module.css'
 import logo from './logo.png';
+
 function Navigation() {
     return (
         <nav className={n.nav}>
             <a className={n.logo} href="#">
-                <img src={logo} alt="logo"/>
+                <img src={logo} alt="logo" />
             </a>
-            <div className={n.list}> 
-            <a className={n.link} href="#">Главная</a>
+            <div className={n.list}>
+            <a className={[n.link, n.test].join(' ')} href="#">Главная</a>
             <a className={n.link} href="#">Команда</a>
             <a className={n.link} href="#">Услуги</a>
             <a className={n.link} href="#">Карьера</a>
