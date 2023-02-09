@@ -1,23 +1,24 @@
 import React from "react";
-import HeaderMain from "./Components/Header/HeaderMain";
-import Header from "./Components/Header/HeaderMain";
-import Main from "./Components/Main/Main";
-import Navigation from "./Components/Navigation/nav";
-import styles from "./styles/App.css";
+import HeaderMain from "./components/Header/HeaderMain";
+import Main from "./components/Main/Main";
+import Navigation from "./components/Navigation/nav";
+import { Container } from './components/Container'
+
+import "./styles/App.css";
 
 function App() {
   return (
     <div>
       <header className="header">
-        <div className="container">
+        <Container>
           <Navigation />
           <HeaderMain />
-        </div>
+        </Container>
       </header>
       <main>
-        <div className="container">
+        <Container>
           <Main />
-        </div>
+        </Container>
       </main>
     </div>
   );

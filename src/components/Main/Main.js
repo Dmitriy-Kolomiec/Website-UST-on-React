@@ -5,8 +5,9 @@ import Portfolio from "./Portfolio/Portfolio";
 import Directions from "./Directions/Directions";
 
 function Main() {
+  // TODO: поправить вёрстку
   return (
-    <div>
+    <>
       {/* Первый блок: О нас*/}
       <div>
         <h3 className="info__block">О нас</h3>
@@ -44,7 +45,7 @@ function Main() {
       <section>
         <Portfolio />
       </section>
-    </div>
+    </>
   );
 }
 

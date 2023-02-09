@@ -19,7 +19,7 @@
     min-height: 203px;
   }
   .direction h3 {
-    color: #1e74ec;
+    color: var(--primary);
     font-size: 26px;
     font-weight: 325;
     line-height: 32px;
