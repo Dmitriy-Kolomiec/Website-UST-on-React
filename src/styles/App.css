@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "GothamLight";
+  src: url("./fonts/GothamLight.woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "GothamBold";
+  src: url("./fonts/GothamBold.woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: url("./fonts/GothamMedium.woff");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  font-family: "GothamMedium", arial;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.header {
+  background-image: url(../Components/Header/bg.png);
+  margin-bottom: 270px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+.btn {
+  width: 206px;
+  height: 48px;
+  background: #1e74ec;
+  color: #eeeff1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 350;
+  line-height: 19px;
+  transition: 0.2s ease-in-out ;
+}
+.btn:hover {
+    box-shadow: inset 0 0 10px #333;
+    cursor: pointer;
+
+}
+.btn__white {
+  color: #1e74ec;
+  background-color: #eeeff1;
+  border: 2px solid #1e74ec;
+}
+.info__block {
+    font-size: 26px;
+    line-height: 32px;
+    color: #35417f;
+    margin: 0px 0px 20px 37px;
+  }
+.block-center {
+    text-align: center;
+}
+  .title__block {
+    font-family: "GothamBold";
+    font-size: 62px;
+    line-height: 68px;
+    color: #03115f;
+    margin-bottom: 24px;
+  }
+  .text__subtitle {
+    color: #535670;
+    font-size: 20px;
+    font-weight: 28px;
+    width: 906px;
+  }
+  .text__subtitle-center {
+    margin: 0px auto;
+  }

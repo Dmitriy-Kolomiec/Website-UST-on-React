@@ -1,0 +1,29 @@
+.portfolio__block {
+  text-align: center;
+}
+.work-1 {
+  border: 5px solid red;
+}
+.completed__works {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, [col] minmax(280px,330px));
+  grid-template-rows: repeat(2, [row] 1fr);
+  grid-column-gap:  40px;
+  margin-top: 45px;
+}
+.block__work {
+  max-width: 330px;
+}
+.block__work:nth-child(5) {
+  grid-column: col 1 / col 3;
+}
+.block__work:last-child {
+  grid-column: col 3 / col 5;
+}
+.block__btn {
+    width: 436px;
+    height: 48px;
+    display: flex;
+    gap: 20px;
+    margin: 0px auto;
+}

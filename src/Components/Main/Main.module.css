@@ -1,0 +1,24 @@
+
+.about__company {
+  min-height: 640px;
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+  height: 640px;
+  margin-left: 37px;
+  margin-bottom: 175px;
+}
+.img {
+  max-width: 947px;
+}
+.text {
+  color: #535670;
+  font-size: 18px;
+  line-height: 22px;
+}
+.block__btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Второй блок DIRECTIONS */

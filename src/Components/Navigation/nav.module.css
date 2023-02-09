@@ -1,0 +1,40 @@
+.nav {
+  max-width: 1440px;
+  height: 80px;
+  margin: 0px auto 172px auto;
+  /* padding-top: 10px; */
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  align-items: center;
+}
+.logo {
+  margin-left: 38px;
+  height: 70px;
+}
+.list {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  max-width: 723px;
+  height: 50px;
+  gap: 20px;
+}
+.link {
+  color: #dddde2;
+  text-decoration: none;
+  border-right: 1px solid #dddde2;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  height: 19px;
+  padding-right: 10px;
+  transition: all 0.2s ease-in-out ;
+}
+.link:nth-child(6) {
+    border: none;
+}
+.link:hover {
+    color: #1e74ec;
+  text-decoration: underline;
+}
